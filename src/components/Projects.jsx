@@ -5,27 +5,27 @@ const Projects = () => {
   const data = [
     {
       description: 'This is an app that was developed to provide the user with a large range of entertainment options which ranges  from watching, downloading, streaming, movies both off and online. It also provides the same options for listening to music.',
-      image: 'src/assets/Entertainment.jpg',
+      image: 'images/Entertainment.jpg',
       title: 'Entertainment App',
       stacks: '',
       /**The app also provides recommendations based on people choices and amount of rates of view for the movies/songs. It fetches its data from well known  sites like IMDb, Netflix. Showmax, Prime and the rest. It also provides options for watching matches online from champions league to premier leagues to all local and international leagues too.*/
     },
     {
       description: 'This is an app that was designed with the purpose of helping the user keep track of their health and fitness. The app provides services that ranges from providing healthy workout routine for the user and providing daily options of providing reminders to the user. Itr also has side options of keeping record of the users data (i.e weight, height and gender). the data is used to provide a tailor made fitness plan for the user.',
-      image: 'src/assets/Fitness.jpg',
+      image: 'images/Fitness.jpg',
       title: 'Fitness Tracker',
       stacks: '', 
       /**The app also provides options for learning self defence and also provides  tutorial videos for each category of the users choice.*/
     },
     {
       description: 'The expense tracker provides the user with an update on the regular expenses made by the user. It tells how much has been spent and also provides a guide for those that want to start a savings plan.',
-      image: 'src/assets/Expenses.jpg',
+      image: 'images/Expenses.jpg',
       title: 'Expense Tracker',
       stacks: '',
     },
     {
       description: "Its a transportion app that provides the user with information on available drivers and transport means available for them. It links them with qualified drivers who own cars and are ready to act as drivers while also linking people who are in need of drivers or who can drive and don't have a means of providing their services. It provides a mode of verification for both the Driver and User so as to provide adequate security to them both. The appp also serves as a tour guide providing a guide for tourist and visitors in need of a guide.",
-      image: 'src/assets/Chauffer.jpg',
+      image: 'images/Chauffer.jpg',
       title: 'Chauffer',
       stacks: '',
     },

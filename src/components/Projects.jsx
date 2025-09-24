@@ -15,13 +15,7 @@ const Projects = () => {
       links: 'https://skillmatch-ai-chi.vercel.app'
       /**The app also provides recommendations based on people choices and amount of rates of view for the movies/songs. It fetches its data from well known  sites like IMDb, Netflix. Showmax, Prime and the rest. It also provides options for watching matches online from champions league to premier leagues to all local and international leagues too.*/
     },
-    {
-      description: 'This is an app that was designed with the purpose of helping the user keep track of their health and fitness. The app provides services that ranges from providing healthy workout routine for the user and providing daily options of providing reminders to the user. Itr also has side options of keeping record of the users data (i.e weight, height and gender). the data is used to provide a tailor made fitness plan for the user.',
-      image: fitnessImg,
-      title: 'Fitness Tracker',
-      stacks: '', 
-      /**The app also provides options for learning self defence and also provides  tutorial videos for each category of the users choice.*/
-    },
+    
 
   ]
   return (

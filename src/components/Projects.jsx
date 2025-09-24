@@ -8,10 +8,11 @@ const Projects = () => {
 
   const data = [
     {
-      description: 'This is an app that was developed to provide the user with a large range of entertainment options which ranges  from watching, downloading, streaming, movies both off and online. It also provides the same options for listening to music.',
+      description: 'This is an Education App that aids the user in learning skills and keeping track of the skills they have learnt, throught the use of Ai and through the use of third Party API from Youtube',
       image: moviesImg,
-      title: 'Entertainment App',
-      stacks: '',
+      title: 'SkillMatch Ai',
+      stacks: 'Next.js, Framer-Motion, NextAuth, MongoDB',
+      links: 'https://skillmatch-ai-chi.vercel.app'
       /**The app also provides recommendations based on people choices and amount of rates of view for the movies/songs. It fetches its data from well known  sites like IMDb, Netflix. Showmax, Prime and the rest. It also provides options for watching matches online from champions league to premier leagues to all local and international leagues too.*/
     },
     {
@@ -21,18 +22,7 @@ const Projects = () => {
       stacks: '', 
       /**The app also provides options for learning self defence and also provides  tutorial videos for each category of the users choice.*/
     },
-    {
-      description: 'The expense tracker provides the user with an update on the regular expenses made by the user. It tells how much has been spent and also provides a guide for those that want to start a savings plan.',
-      image: moneyImg,
-      title: 'Expense Tracker',
-      stacks: '',
-    },
-    {
-      description: "Its a transportion app that provides the user with information on available drivers and transport means available for them. It links them with qualified drivers who own cars and are ready to act as drivers while also linking people who are in need of drivers or who can drive and don't have a means of providing their services. It provides a mode of verification for both the Driver and User so as to provide adequate security to them both. The appp also serves as a tour guide providing a guide for tourist and visitors in need of a guide.",
-      image: ubaImg,
-      title: 'Chauffer',
-      stacks: '',
-    },
+
   ]
   return (
     <div className="pb-4 text-1xl">
@@ -61,7 +51,7 @@ const Projects = () => {
                 initial={{ opacity: 0, x: 100 }}
                 transition={{duration:0.5}}
                 className="flex flex-col justify-center lg:w-1/2 my-8">
-                  <h3 className="mb-2 font-semibold text-4xl">{ item.title}</h3>
+                  <a href={item.links}><h3 className="mb-2 font-semibold text-4xl">{ item.title}</h3></a>
                   <p className="mb-4">Description: {item.description}</p>
                   <span className="mr-2 rounded text-sm font-medium text-stone-300">{item.stacks}</span>
                 </motion.div>

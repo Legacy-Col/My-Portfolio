@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import moviesImg from '../assets/images/Entertainment.jpg'
+import skills from '../assets/images/skillmatch.png'
 import fitnessImg from '../assets/images/Fitness.jpg'
 import moneyImg from '../assets/images/Expenses.jpg'
 import ubaImg from '../assets/images/Chauffer.jpg'
@@ -9,7 +9,7 @@ const Projects = () => {
   const data = [
     {
       description: 'This is an Education App that aids the user in learning skills and keeping track of the skills they have learnt, throught the use of Ai and through the use of third Party API from Youtube',
-      image: moviesImg,
+      image: skills,
       title: 'SkillMatch Ai',
       stacks: 'Next.js, Framer-Motion, NextAuth, MongoDB',
       links: 'https://skillmatch-ai-chi.vercel.app'

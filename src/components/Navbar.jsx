@@ -17,13 +17,13 @@ const Navbar = () => {
             <a href='https://www.linkdin.com/NwosuCollins'target='_blank' rel='noopener noreferrer'aria-label='LinkedIn' >
                 <FaLinkedin />
             </a>
-            <a href='https://www.facebook.com/NwosuCollins' target='_blank' rel='noopener noreferrer'aria-label='Facebook'>
+            <a href='https://www.facebook.com/CollinsNwosu' target='_blank' rel='noopener noreferrer'aria-label='Facebook'>
                   <FaFacebook />
             </a>
-            <a href='https://www.twitter.com/NwosuCollins' target='_blank' rel='noopener noreferrer'aria-label='Twitter'>
+            <a href='https://www.twitter.com/legacyray' target='_blank' rel='noopener noreferrer'aria-label='Twitter'>
                 <FaSquareXTwitter />
             </a>
-            <a href='https://www.instagram.com/NwosuCollins' target='_blank' rel='noopener noreferrer'aria-label='Instagram'>
+            <a href='https://www.instagram.com/legacycollins' target='_blank' rel='noopener noreferrer'aria-label='Instagram'>
                 <FaSquareInstagram />
             </a>
           </div>  

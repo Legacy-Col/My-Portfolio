@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className='flex items-center justify-between py-6'>
           <div className='flex flex-shrink-0 items-center'>
               <a href='/' aria-label='Home'>
-                <img src={logo} alt='logo' className='rounded-full text-2xl'/>
+                <img src={logo} alt='logo' className='rounded-full w-24'/>
               </a>
           </div>
           <div className='m-8 flex items-center justify-center gap-4 text-2xl'>

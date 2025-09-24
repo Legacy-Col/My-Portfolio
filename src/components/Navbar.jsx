@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaLinkedin } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6"
 import logo from "../assets/images/COLLINS HUB.png"
@@ -16,9 +15,6 @@ const Navbar = () => {
           <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
             <a href='https://www.linkdin.com/NwosuCollins'target='_blank' rel='noopener noreferrer'aria-label='LinkedIn' >
                 <FaLinkedin />
-            </a>
-            <a href='https://www.facebook.com/collins.nwosu' target='_blank' rel='noopener noreferrer'aria-label='Facebook'>
-                  <FaFacebook />
             </a>
             <a href='https://www.twitter.com/legacyCollins5' target='_blank' rel='noopener noreferrer'aria-label='Twitter'>
                 <FaSquareXTwitter />

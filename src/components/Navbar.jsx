@@ -3,13 +3,14 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6"
+import logo from "../assets/images/COLLINS HUB.png"
 
 const Navbar = () => {
   return (
     <nav className='flex items-center justify-between py-6'>
           <div className='flex flex-shrink-0 items-center'>
               <a href='/' aria-label='Home'>
-                <img src='' alt='logo' className=''/>
+                <img src={logo} alt='logo' className=''/>
               </a>
           </div>
           <div className='m-8 flex items-center justify-center gap-4 text-2xl'>

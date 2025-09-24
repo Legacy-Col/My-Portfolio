@@ -13,7 +13,7 @@ const Navbar = () => {
               </a>
           </div>
           <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            <a href='https://www.linkdin.com/NwosuCollins'target='_blank' rel='noopener noreferrer'aria-label='LinkedIn' >
+            <a href='https://www.linkedin.com/in/nwosu-collins-a19476287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'target='_blank' rel='noopener noreferrer'aria-label='LinkedIn' >
                 <FaLinkedin />
             </a>
             <a href='https://www.twitter.com/legacyCollins5' target='_blank' rel='noopener noreferrer'aria-label='Twitter'>

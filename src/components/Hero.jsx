@@ -60,8 +60,11 @@ const Hero = () => {
                       </motion.span>
                       <motion.p
                         variants={childVariants}
-                        className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ab fugiat natus atque sit. Id iusto modi voluptate. Possimus fuga veniam iure ut quo! Minima reprehenderit beatae repudiandae veniam non?
-                      </motion.p>
+                        className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">Hi, I’m Collins Uchechukwu — a Front-End Web Developer, Surveyor, and Designer with a growing interest in Cybersecurity. My work spans both the digital and physical world: from creating responsive, user-friendly web experiences with modern tools, to producing precise survey plans and technical drawings.
+
+I’m skilled in front-end development (responsive design, clean interfaces), designing with Figma, and applying my background in surveying to deliver accurate and reliable results. My multidisciplinary background gives me a unique perspective on problem-solving — blending creativity, precision, and technical expertise.
+
+I’m currently seeking job opportunities, freelance work, contracts, or internships, where I can contribute my skills, grow professionally, and collaborate with teams to build impactful solutions.</motion.p>
                       <motion.a
                         variants={childVariants}                  
                         href="" target="_blank" rel="noopenner noreferrer" download className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10">Download Resume

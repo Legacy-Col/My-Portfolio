@@ -8,11 +8,19 @@ const Projects = () => {
 
   const data = [
     {
-      description: 'This is an Education App that aids the user in learning skills and keeping track of the skills they have learnt, throught the use of Ai and through the use of third Party API from Youtube',
+      description: 'This is an Education App that aids the user in learning skills and keeping track of the skills they have learnt, through the use of Ai and through the use of third Party API from Youtube',
       image: skills,
       title: 'SkillMatch Ai',
       stacks: 'Next.js, Framer-Motion, NextAuth, MongoDB',
       links: 'https://skillmatch-ai-chi.vercel.app'
+      /**The app also provides recommendations based on people choices and amount of rates of view for the movies/songs. It fetches its data from well known  sites like IMDb, Netflix. Showmax, Prime and the rest. It also provides options for watching matches online from champions league to premier leagues to all local and international leagues too.*/
+    },
+    {
+      description: 'This is a UI/UX prototype design of a project I did while learning Figma',
+      image: skills,
+      title: 'Hotel Royal',
+      stacks: 'Figma',
+      links: 'https://www.figma.com/design/K55Ddt9EZtbDDZwEuXVLmC/Kai-s-Homes?node-id=0-1&m=dev&t=TVC40bCTiP1p3zOR-1'
       /**The app also provides recommendations based on people choices and amount of rates of view for the movies/songs. It fetches its data from well known  sites like IMDb, Netflix. Showmax, Prime and the rest. It also provides options for watching matches online from champions league to premier leagues to all local and international leagues too.*/
     },
     
